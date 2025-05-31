@@ -1,19 +1,30 @@
 .contact {
-  background-color: var(--neutral-100);
+  width: 85%;
+  max-width: 1200px;
+  margin: 80px auto 0px auto;
+  background-color: transparent;
   position: relative;
   overflow: hidden;
+  padding: 55px 10px;
+
+  @media screen and (max-width: 768px) {
+    width: 95%;
+    padding: 40px 10px;
+  }
 }
 
 .contact-content {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-4);
+
 }
 
-.contact-info, .contact-form {
+.contact-info,
+.contact-form {
   flex: 0 0 100%;
   max-width: 100%;
-  
+
   @media (min-width: 992px) {
     flex: 0 0 calc(50% - var(--space-2));
     max-width: calc(50% - var(--space-2));
@@ -25,7 +36,7 @@
     margin-bottom: var(--space-2);
     position: relative;
     padding-bottom: var(--space-1);
-    
+
     &::after {
       content: '';
       position: absolute;
@@ -36,8 +47,8 @@
       background-color: var(--primary-500);
     }
   }
-  
-  > p {
+
+  >p {
     color: var(--neutral-600);
     margin-bottom: var(--space-3);
   }
@@ -53,11 +64,11 @@
   margin-bottom: var(--space-2);
   padding-bottom: var(--space-2);
   border-bottom: 1px solid var(--neutral-200);
-  
+
   &:last-child {
     border-bottom: none;
   }
-  
+
   .icon {
     flex: 0 0 40px;
     height: 40px;
@@ -70,23 +81,23 @@
     font-size: 1.2rem;
     margin-right: var(--space-2);
   }
-  
+
   .content {
     flex-grow: 1;
-    
+
     h4 {
       font-size: 1.1rem;
       margin-bottom: 0.25rem;
     }
-    
+
     p {
       color: var(--neutral-600);
       margin: 0;
-      
+
       a {
         color: var(--primary-500);
         transition: color 0.3s ease;
-        
+
         &:hover {
           color: var(--primary-600);
         }
@@ -98,7 +109,7 @@
 .social-links {
   display: flex;
   gap: var(--space-2);
-  
+
   a {
     width: 40px;
     height: 40px;
@@ -110,7 +121,7 @@
     align-items: center;
     font-size: 1.2rem;
     transition: all 0.3s ease;
-    
+
     &:hover {
       background-color: var(--primary-600);
       transform: translateY(-3px);
@@ -119,16 +130,16 @@
 }
 
 .contact-form {
-  background-color: white;
+  background-color: rgba(164, 163, 163, 0.167);
   border-radius: 8px;
   padding: var(--space-4);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  
+
   h3 {
     margin-bottom: var(--space-3);
     position: relative;
     padding-bottom: var(--space-1);
-    
+
     &::after {
       content: '';
       position: absolute;
@@ -139,7 +150,7 @@
       background-color: var(--primary-500);
     }
   }
-  
+
   form {
     display: flex;
     flex-direction: column;
@@ -150,33 +161,34 @@
 .form-group {
   display: flex;
   flex-direction: column;
-  
+
   label {
     font-weight: 500;
     margin-bottom: 0.5rem;
-    color: var(--neutral-700);
+    color: var(--text-color);
   }
-  
-  input, textarea {
+
+  input,
+  textarea {
     padding: 0.75rem;
     border: 1px solid var(--neutral-300);
     border-radius: 4px;
     transition: border-color 0.3s ease;
-    
+
     &:focus {
       outline: none;
       border-color: var(--primary-500);
     }
-    
+
     &.invalid {
       border-color: var(--error-500);
     }
   }
-  
+
   textarea {
     resize: vertical;
   }
-  
+
   .error-message {
     color: var(--error-500);
     font-size: 0.85rem;

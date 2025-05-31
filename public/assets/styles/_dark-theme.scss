@@ -1,22 +1,19 @@
 /* Dark theme */
 body.dark-theme {
     //for body only
-    --primary-bg: #101426;
-    --primary-color: #ddd;
-    --primary-btn-bg:#25d366;
-    --primary-btn-color:#fff;
-    --secondary-bg:#072538;
-    --secondary-color:#222b45;
-    --footer-bg:#010107;
-    --project-bg:#222b45;
+    --primary-bg: #18181b;
 
-     //banner card
-     --banner-bg:#222b45;
-  
+    //for components
+    --background-main-bg: #18181b;
+    --text-color: #ddd;
+    --background-main-bg_1: #18181b;
+
+    // shot colors
+    --shot-colors: #005cbb;
 }
 
 body.dark-theme {
-    background-color: var(--background-color);
+    background-color: var(--primary-bg);
     color: var(--text-color);
 }
 

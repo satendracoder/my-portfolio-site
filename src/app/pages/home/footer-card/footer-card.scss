@@ -1,16 +1,22 @@
 .footer {
+  width: 100%;
+  max-width: 1200px;
   padding: 1rem;
-  background-color: #fff;
+  background-color: var(--background-main-bg_1);
   border-top: 1px solid #eaeaea;
   font-size: 14px;
+  position: relative;
 
   .footer-container {
-    max-width: 1200px;
+        max-width: 1200px;
     margin: 0 auto;
-    display: flex;
+    display: flex
+;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
   }
 
   .footer-left {
@@ -19,7 +25,7 @@
     flex-wrap: wrap;
 
     a {
-      color: #111;
+      color: var(--text-color);
       text-decoration: none;
       font-weight: 500;
       transition: color 0.3s;
@@ -35,7 +41,10 @@
     color: #999;
     font-size: 13px;
     margin-top: 0.5rem;
-
+    p{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
     @media (min-width: 768px) {
       margin-top: 0;
     }
@@ -53,4 +62,49 @@
       margin-bottom: 0.5rem;
     }
   }
+
+
+
+  .fixed-button {
+    position: fixed;
+    top: 3%;
+    right: 10%;
+    z-index: 999;
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    @media screen and (max-width: 768px) {
+       top: 3%;
+    right: 10%;
+    }
+
+    .theme-button {
+      display: flex;
+      justify-content: stretch;
+      align-items: center;
+      background: transparent;
+      color: var(--background-color);
+      padding: 4px;
+      text-decoration: none;
+      border-radius: 45px;
+      font-size: 14px;
+      font-family: "mypoppinsRegular";
+      font-weight: bold;
+      letter-spacing: 1px;
+      gap: 6px;
+      cursor: pointer;
+
+      svg {
+        margin-right: 10px;
+        /* Space between icon and text */
+        font-size: 18px;
+        /* Adjust icon size if needed */
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+
+  }
+
 }

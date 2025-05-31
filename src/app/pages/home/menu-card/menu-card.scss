@@ -26,12 +26,12 @@ header {
 
 
   &.scrolled {
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: var(--background-main-bg_1);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: var(--space-0) 0;
-     border: .5px solid rgba(0, 0, 0, 0.457);
+     border: .5px solid var(--text-color);
      top: 15px;
   }
 }
@@ -130,7 +130,7 @@ nav {
 
       a {
         text-decoration: none;
-        color: var(--neutral-700);
+        color: var(--text-color);
         font-weight: 500;
         position: relative;
         padding: 0.5rem 0;

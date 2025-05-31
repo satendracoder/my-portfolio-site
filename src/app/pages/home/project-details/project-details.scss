@@ -1,14 +1,17 @@
 .project-details {
   padding-bottom: var(--space-8);
+    padding: 55px 10px;
+  margin-top: 60px;
 }
 
 .project-hero {
   height: 50vh;
-  min-height: 400px;
+  min-height: 200px;
   background-size: cover;
   background-position: center;
   position: relative;
   margin-bottom: var(--space-6);
+  border-radius: 10px;
   
   .overlay {
     position: absolute;
@@ -19,6 +22,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
+    border-radius: 10px;
   }
   
   h1 {
@@ -215,6 +219,7 @@
       }
     }
   }
+  
 }
 
 .text-center {

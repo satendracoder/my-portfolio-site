@@ -81,7 +81,7 @@ projects: Project_1[] = [
     }
   ];
 
-  categories: string[] = ['All', 'Web Development', 'Mobile Development', 'UI/UX Design'];
+  categories: string[] = ['All', 'Redmil', 'Webconvoy', 'Fine Quick','Collage & myself',];
   selectedCategory: string = 'All';
 
   filteredProjects(): Project_1[] {

@@ -6,7 +6,7 @@
   .newsletter-card {
     display: flex;
     flex-direction: row;
-    background: #ffffff;
+    background: var(--background-main-bg);
     border-radius: 16px;
     gap: 0rem;
     overflow: hidden;
@@ -20,9 +20,10 @@
     .newsletter-left {
       flex: 1;
       padding: 0.5rem 2rem;
-      box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0px 10px #666;
       margin: 15px;
       border-radius: 10px;
+     
 
       .logo {
         width: 32px;
@@ -32,19 +33,19 @@
       .title {
         font-size: 1.8rem;
         font-weight: bold;
-        color: #202020;
+        color: var(--text-color);
         margin-bottom: 1rem;
       }
 
       .description {
         font-size: 1rem;
-        color: #444;
+        color: var(--text-color);
         margin-bottom: 1rem;
       }
 
       .author {
         font-size: 0.95rem;
-        color: #444;
+        color: #02aaf7;
         margin-bottom: 1.5rem;
 
         .verified {
@@ -103,7 +104,6 @@
       align-items: center;
       justify-content: center;
       padding: 2rem;
-
       .profile-img {
         width: 100%;
         max-width: 320px;

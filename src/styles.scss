@@ -97,13 +97,8 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: var(--font-family);
-  line-height: 1.5;
-  color: var(--neutral-800);
-  background-color: var(--neutral-100);
-  overflow-x: hidden;
-}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
@@ -211,23 +206,23 @@ section {
   text-align: center;
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-}
+// /* Custom scrollbar */
+// ::-webkit-scrollbar {
+//   width: 8px;
+// }
 
-::-webkit-scrollbar-track {
-  background: var(--neutral-200);
-}
+// ::-webkit-scrollbar-track {
+//   background: var(--neutral-200);
+// }
 
-::-webkit-scrollbar-thumb {
-  background: var(--primary-500);
-  border-radius: 5px;
-}
+// ::-webkit-scrollbar-thumb {
+//   background: var(--primary-500);
+//   border-radius: 2px;
+// }
 
-::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-600);
-}
+// ::-webkit-scrollbar-thumb:hover {
+//   background: var(--primary-600);
+// }
 
 /* Responsive breakpoints */
 @media (max-width: 767px) {

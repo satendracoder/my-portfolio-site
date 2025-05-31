@@ -1,7 +1,9 @@
 .projects {
-  background-color: var(--neutral-100);
+  background-color: var(--background-main-bg);
   position: relative;
   overflow: hidden;
+      padding: 55px 10px;
+    margin-top: 80px;
 }
 
 .category-filter {
