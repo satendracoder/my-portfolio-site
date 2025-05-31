@@ -1,0 +1,91 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="477 47 285 311" width="285" height="311">
+	<title>ssbrlogo</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(246.769,0,0,278.386,497,63)">
+			<stop offset="0" stop-color="#ff6b6b"/>
+			<stop offset="1" stop-color="#ff8c00"/>
+		</linearGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(69.271,0,0,112.553,555.19,123.675)">
+			<stop offset="0" stop-color="#8fd3f4"/>
+			<stop offset="1" stop-color="#84fab0"/>
+		</linearGradient>
+		<linearGradient id="g3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(69.271,0,0,69.271,555.19,123.675)">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#000000"/>
+		</linearGradient>
+		<linearGradient id="g4" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(69.271,0,0,112.553,555.19,123.675)">
+			<stop offset="0" stop-color="#8fd3f4"/>
+			<stop offset="1" stop-color="#84fab0"/>
+		</linearGradient>
+		<linearGradient id="g5" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(69.271,0,0,112.553,555.19,123.675)">
+			<stop offset="0" stop-color="#8fd3f4"/>
+			<stop offset="1" stop-color="#84fab0"/>
+		</linearGradient>
+		<linearGradient id="g6" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(69.271,0,0,112.553,555.19,123.675)">
+			<stop offset="0" stop-color="#8fd3f4"/>
+			<stop offset="1" stop-color="#84fab0"/>
+		</linearGradient>
+		<linearGradient id="g7" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(69.271,0,0,112.553,555.19,123.675)">
+			<stop offset="0" stop-color="#8fd3f4"/>
+			<stop offset="1" stop-color="#84fab0"/>
+		</linearGradient>
+		<linearGradient id="g8" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(69.271,0,0,112.553,555.19,123.675)">
+			<stop offset="0" stop-color="#8fd3f4"/>
+			<stop offset="1" stop-color="#84fab0"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: url(#g2) } 
+		.s2 { fill: #000000 } 
+		.s3 { fill: url(#g3) } 
+		.s4 { fill: url(#g4) } 
+		.s5 { fill: url(#g5) } 
+		.s6 { fill: url(#g6) } 
+		.s7 { fill: url(#g7) } 
+		.s8 { fill: url(#g8) } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<g id="&lt;Group&gt;">
+				</g>
+				<g id="&lt;Group&gt;">
+				</g>
+			</g>
+			<g id="&lt;Group&gt;">
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m743.8 261.3v-118.2c0-7.5-4-14.4-10.5-18.2l-102.4-59.1c-6.5-3.7-14.5-3.7-21 0l-102.4 59.1c-6.5 3.8-10.5 10.7-10.5 18.2v118.2c0 7.5 4 14.5 10.5 18.2l102.4 59.1c6.5 3.8 14.5 3.8 21 0l102.4-59.1c6.5-3.7 10.5-10.7 10.5-18.2z"/>
+				<g id="&lt;Group&gt;">
+					<g id="&lt;Group&gt;">
+						<g id="&lt;Group&gt;">
+							<g id="&lt;Group&gt;">
+								<path id="&lt;Path&gt;" class="s1" d="m611.5 236.3l-43.3-43.3-13-13 56.3-56.3 13 13-43.3 43.3 43.3 43.3z"/>
+							</g>
+							<g id="&lt;Group&gt;">
+								<path id="&lt;Path&gt;" class="s2" d="m585.4 262.4l-43.4-43.3-12.9-13 13-13 56.2 56.3z"/>
+							</g>
+							<path id="&lt;Path&gt;" class="s3" d="m568.2 193l-13-13 56.3-56.3 13 13z"/>
+							<path id="&lt;Path&gt; copy" class="s4" d="m611.5 236.3l-43.3-43.3-13-13 56.3-56.3 13 13-43.3 43.3 43.3 43.3z"/>
+							<g id="&lt;Group&gt;">
+								<path id="&lt;Path&gt;" class="s2" d="m623.2 164.4l43.3 43.3 13 13-56.3 56.3-13-13 43.3-43.3-43.3-43.4z"/>
+							</g>
+							<g id="&lt;Group&gt;">
+								<path id="&lt;Path&gt;" class="s2" d="m706 194.2l-13 13-56.3-56.3 13-13 43.3 43.3z"/>
+							</g>
+							<path id="&lt;Path&gt;" class="s2" d="m666.5 207.7l13 13-56.3 56.3-13-13z"/>
+							<path id="&lt;Path&gt; copy 6" class="s5" d="m611.5 236.3l-43.3-43.3-13-13 56.3-56.3 13 13-43.3 43.3 43.3 43.3z"/>
+							<path id="&lt;Path&gt; copy 4" class="s6" d="m611.5 236.3l-43.3-43.3-13-13 56.3-56.3 13 13-43.3 43.3 43.3 43.3z"/>
+							<path id="&lt;Path&gt; copy 5" class="s7" d="m611.5 236.3l-43.3-43.3-13-13 56.3-56.3 13 13-43.3 43.3 43.3 43.3z"/>
+							<path id="&lt;Path&gt; copy 3" class="s8" d="m611.5 236.3l-43.3-43.3-13-13 56.3-56.3 13 13-43.3 43.3 43.3 43.3z"/>
+							<path id="&lt;Path&gt; copy 2" class="s2" d="m611.5 236.3l-43.3-43.3-13-13 56.3-56.3 13 13-43.3 43.3 43.3 43.3z"/>
+						</g>
+						<path id="&lt;Path&gt;" class="s2" d="m650.4 249.5l-13 13 13 13 13-13z"/>
+						<path id="&lt;Path&gt;" class="s2" d="m584 125.2l-13 13 13 12.9 13-12.9z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

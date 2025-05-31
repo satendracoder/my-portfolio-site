@@ -19,7 +19,7 @@ export class Experience {
   companies:any = [
     {
       name: 'Fine Quick Solutions',
-      icon: '/assets/images/whoiam/redmil.jpeg',
+      icon: '/assets/images/fine_quick.svg',
       duration: 'June 2025 - Present (Part-time)',
       degination: "Software Engineer",
       location: 'Greate Noida, Uttar Pradesh · Remote',
@@ -30,8 +30,8 @@ export class Experience {
       ]
     },
     {
-      name: 'Redmil Business (Rejoining)',
-      icon: '/assets/images/whoiam/redmil.jpeg',
+      name: 'Redmil Business (Rejoin)',
+      icon: '/assets/images/redmil.jpeg',
       duration: 'Sep 2024 - Present',
       degination: "Full Stack Developer",
       location: 'Sector 142 Noida, Uttar Pradesh · On-site',
@@ -43,7 +43,7 @@ export class Experience {
     },
     {
       name: 'WebConvoy Pvt Ltd',
-      icon: '/assets/images/whoiam/webconvoy.jpeg',
+      icon: '/assets/images/webconvoy.jpeg',
       duration: 'May 2024 - Aug 2024',
       degination: "Angular Developer",
       location: 'H-159, Sector 63, Noida, Uttar Pradesh, India · On-site',
@@ -55,7 +55,7 @@ export class Experience {
     },
     {
       name: 'Redmil Business Mall',
-      icon: '/assets/images/whoiam/redmil.jpeg',
+      icon: '/assets/images/redmil.jpeg',
       duration: 'Apr 2022 - Apr 2024',
       degination: "Angular Developer",
       location: 'Sector 62 Noida, Uttar Pradesh, India · On-site',

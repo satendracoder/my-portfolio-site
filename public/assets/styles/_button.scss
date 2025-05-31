@@ -1,0 +1,32 @@
+
+// Buttons
+.btn {
+    //display: inline-block;
+    padding: 5px 14px !important;
+    font-size: 14px;
+    color: #fff;
+    background-color: #019d91;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+    &:hover {
+    color: #fff !important;
+    background-color: #010107 !important;
+    box-shadow: 0px 0px 10px #26A69A;
+    border-radius: 5px !important;
+    transform: scale(1.1);
+    }
+  
+    &--secondary {
+      background-color:#26a699dc;
+  
+      &:hover {
+        background-color: #0b8f82;
+      }
+    }
+  }
+  
+ 
