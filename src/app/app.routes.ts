@@ -29,7 +29,11 @@ export const routes: Routes = [
             ,
             {
                 path: 'projects/:id',
-                loadComponent: () => import('./pages/home/project-details/project-details').then(m => m.ProjectDetails)
+                loadComponent: () => import('./pages/home/project-details/project-details')
+                    .then(m => m.ProjectDetails),
+                data: {
+                    renderMode: 'pre-render'
+                },
             }
         ]
     },
