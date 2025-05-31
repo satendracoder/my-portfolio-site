@@ -32,8 +32,13 @@ export const routes: Routes = [
                 loadComponent: () => import('./pages/home/project-details/project-details')
                     .then(m => m.ProjectDetails),
                 data: {
-                    renderMode: 'pre-render'
-                },
+                    renderMode: 'pre-render',
+                    prerenderIds: [
+                        { id: '1' },
+                        { id: '2' },
+                        { id: '3' }
+                    ]
+                }
             }
         ]
     },
