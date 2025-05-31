@@ -1,6 +1,6 @@
 .project-details {
   padding-bottom: var(--space-8);
-    padding: 55px 10px;
+  padding: 55px 10px;
   margin-top: 60px;
 }
 
@@ -12,7 +12,7 @@
   position: relative;
   margin-bottom: var(--space-6);
   border-radius: 10px;
-  
+
   .overlay {
     position: absolute;
     top: 0;
@@ -24,13 +24,13 @@
     align-items: center;
     border-radius: 10px;
   }
-  
+
   h1 {
     color: white;
     font-size: 2.5rem;
     margin-bottom: var(--space-2);
   }
-  
+
   p {
     color: var(--neutral-200);
     font-size: 1.2rem;
@@ -48,17 +48,17 @@
 .project-info {
   flex: 0 0 100%;
   max-width: 100%;
-  
+
   @media (min-width: 992px) {
     flex: 0 0 30%;
     max-width: 30%;
   }
-  
+
   h3 {
     margin-bottom: var(--space-3);
     position: relative;
     padding-bottom: var(--space-1);
-    
+
     &::after {
       content: '';
       position: absolute;
@@ -73,18 +73,18 @@
 
 .info-list {
   margin-bottom: var(--space-3);
-  
+
   .info-item {
     display: flex;
     padding: var(--space-1) 0;
     border-bottom: 1px solid var(--neutral-200);
-    
+
     .info-label {
       flex: 0 0 100px;
       font-weight: 600;
       color: var(--neutral-800);
     }
-    
+
     .info-value {
       color: var(--neutral-600);
     }
@@ -95,7 +95,7 @@
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
-  
+
   .btn {
     width: 100%;
     display: flex;
@@ -108,17 +108,17 @@
 .project-description {
   flex: 0 0 100%;
   max-width: 100%;
-  
+
   @media (min-width: 992px) {
     flex: 0 0 65%;
     max-width: 65%;
   }
-  
+
   h3 {
     margin-bottom: var(--space-3);
     position: relative;
     padding-bottom: var(--space-1);
-    
+
     &::after {
       content: '';
       position: absolute;
@@ -129,7 +129,7 @@
       background-color: var(--primary-500);
     }
   }
-  
+
   p {
     color: var(--neutral-700);
     line-height: 1.6;
@@ -140,12 +140,13 @@
 .features-list {
   padding-left: var(--space-3);
   margin-bottom: var(--space-3);
-  
+
   li {
     color: var(--neutral-700);
-    margin-bottom: var(--space-1);
+    margin-bottom: var(--space-2);
     position: relative;
-    
+    list-style: none;
+
     &::before {
       content: '';
       position: absolute;
@@ -164,7 +165,7 @@
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: var(--space-3);
-  
+
   span {
     background-color: var(--primary-100);
     color: var(--primary-700);
@@ -177,12 +178,12 @@
 
 .project-gallery {
   margin-bottom: var(--space-6);
-  
+
   h3 {
     margin-bottom: var(--space-3);
     position: relative;
     padding-bottom: var(--space-1);
-    
+
     &::after {
       content: '';
       position: absolute;
@@ -199,27 +200,28 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: var(--space-3);
-  
+
   @media (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   @media (min-width: 1200px) {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   .gallery-item {
     img {
       width: 100%;
       border-radius: 8px;
       transition: transform 0.3s ease;
-      
+      border: 0.5px solid #2563eb;
+
       &:hover {
         transform: scale(1.02);
       }
     }
   }
-  
+
 }
 
 .text-center {

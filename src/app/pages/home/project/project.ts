@@ -21,12 +21,12 @@ export class Project {
 projects: Project_1[] = [
     {
       id: 1,
-      title: 'E-commerce Website',
-      description: 'A fully responsive e-commerce platform with product catalog, shopping cart, and payment integration.',
-      image: 'https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      technologies: ['Angular', 'Node.js', 'Express', 'MongoDB'],
-      category: 'Web Development',
-      demoUrl: 'https://example.com',
+      title: 'Fintech Platform',
+      description: 'Contributing to the development of a comprehensive Fintech platform offering a wide range of banking, payment, and business services..',
+      image: '/assets/images/projects/redmil_fintech/login.png',
+      technologies: ['HTML/CSS', 'Angular/TypeScript', 'Java', 'RESTful APIs', 'Spring Boot', 'MySQL'],
+      category: 'Redmil',
+      demoUrl: 'https://web.redmilbusinessmall.com/login',
       codeUrl: 'https://github.com'
     },
     {

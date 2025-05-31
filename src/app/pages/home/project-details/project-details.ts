@@ -16,6 +16,7 @@ interface Project {
   client: string;
   date: string;
   role: string;
+  location: string;
 }
 
 @Component({
@@ -32,33 +33,42 @@ export class ProjectDetails {
   projects: Project[] = [
     {
       id: 1,
-      title: 'E-commerce Website',
-      description: 'A fully responsive e-commerce platform with product catalog, shopping cart, and payment integration.',
-      longDescription: 'This e-commerce platform provides a seamless shopping experience with an intuitive user interface. Users can browse products, add them to their cart, and complete purchases through a secure payment system. The admin panel allows for easy management of products, categories, and orders.',
-      image: 'https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      title: 'Fintech Platform',
+      description: 'Contributing to the development of a comprehensive Fintech platform offering a wide range of banking, payment, and business services..',
+      longDescription: 'Developed and maintained Angular & Java-based applications, ensuring seamless integration and optimized performance. Implemented WebSocket for real-time user balances and live data updates, enhancing user engagement. Integrated dynamic graphs and charts for improved data visualization with smooth UI transitions. Built reusable components for balance displays and analytics to optimize system performance. Integrated essential banking services like Aadhaar ATM, Aadhaar Pay, DMT, microATMs, and credit card services to enhance payment processing. Developed modules for account management, cash collection, bill payments, and UPI onboarding, streamlining financial services. Enabled real-time payment processing for mobile, DTH, and Fastag recharges, and integrated payment gateways for utilities and insurance payments.',
+      image: '/assets/images/projects/redmil_fintech/login.png',
       gallery: [
-        'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        'https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        'https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-         'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        'https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        'https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+        '/assets/images/projects/redmil_fintech/login.png',
+        '/assets/images/projects/redmil_fintech/dashboard.png',
+        '/assets/images/projects/redmil_fintech/apes.png',
+        '/assets/images/projects/redmil_fintech/recharge.png',
+        '/assets/images/projects/redmil_fintech/passbook.png',
+        '/assets/images/projects/redmil_fintech/busness-report.png',
+        '/assets/images/projects/redmil_fintech/support.png',
+        '/assets/images/projects/redmil_fintech/profile.png',
+        '/assets/images/projects/redmil_fintech/add-upi.png'
+
       ],
-      technologies: ['Angular', 'Node.js', 'Express', 'MongoDB', 'Stripe API', 'JWT Authentication'],
-      category: 'Web Development',
-      demoUrl: 'https://example.com',
+      technologies: ['HTML/CSS', 'Angular/TypeScript', 'Java', 'RESTful APIs', 'Spring Boot', 'MySQL', 'JWT Authentication'],
+      category: 'Sagar Raj Singhal',
+      demoUrl: 'https://web.redmilbusinessmall.com/login',
       codeUrl: 'https://github.com',
       features: [
-        'Responsive product catalog with filtering and search',
-        'User authentication and profile management',
-        'Shopping cart with local storage persistence',
-        'Secure checkout with Stripe integration',
-        'Order history and tracking',
-        'Admin dashboard for product and order management'
+        'Integrated fintech services like APES, Aadhaar Pay, DMT, Micro-ATM, Recharge, and Bill Payment APIs for seamless user transactions.',
+        'Implemented profile authentication and verification using secure API consumption for enhanced security and user trust.',
+        'Developed passbook and transaction history modules with real-time updates and responsive UI in Angular.',
+        'Built business reports and commission sheet interfaces, including filters, pagination, and downloadable formats (PDF/Excel)',
+        'Created cash-out functionality with live balance tracking and error-handling mechanisms.',
+        'Designed and developed reusable frontend components, focusing on responsive design and performance optimization.',
+        'Managed secure communication between frontend and backend, including token handling, headers, and encrypted data transmission.',
+        'Worked with Java Spring Boot backend when required, especially for encryption, decryption, and sensitive data handling.',
+        'Implemented admin-level controls for managing agents, transaction approvals, and report generation.',
+        'Handled full-stack feature development, from UI/UX to API integration, testing, and deployment, with a focus on scalability.'
       ],
-      client: 'ABC Retail',
-      date: 'January 2023',
-      role: 'Full-Stack Developer'
+      client: 'Redmil Business Mall',
+      date: 'September 2024 to Present',
+      role: 'Full-Stack Developer',
+      location: 'Sector 142 Noida, Uttar Pradesh'
     },
     // Additional projects would be defined here
     {
@@ -86,7 +96,8 @@ export class ProjectDetails {
       ],
       client: 'XYZ Productivity',
       date: 'March 2023',
-      role: 'Frontend Developer'
+      role: 'Frontend Developer',
+      location: 'Remote'
     },
 
      // Additional projects would be defined here
@@ -115,7 +126,8 @@ export class ProjectDetails {
       ],
       client: 'XYZ Productivity',
       date: 'March 2023',
-      role: 'Frontend Developer'
+      role: 'Frontend Developer',
+      location: 'Remote'
     },
 
     
