@@ -1,0 +1,27 @@
+<section id="projects" class="projects">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+    
+    <div class="category-filter" data-aos="fade-up">
+      <button 
+        *ngFor="let category of categories" 
+        [class.active]="selectedCategory === category"
+        (click)="changeCategory(category)">
+        {{ category }}
+      </button>
+    </div>
+    
+    <div class="projects-container">
+      <app-project-card 
+        *ngFor="let project of filteredProjects(); let i = index" 
+        [project]="project"
+        [attr.data-aos]="'fade-up'"
+        [attr.data-aos-delay]="i * 100">
+      </app-project-card>
+    </div>
+    
+    <div class="text-center mt-5" data-aos="fade-up">
+      <a routerLink="/projects" class="btn btn-primary">View All Projects</a>
+    </div>
+  </div>
+</section>

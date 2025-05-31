@@ -1,0 +1,32 @@
+.layout {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    .header {
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        z-index: 10;
+    }
+
+    .content {
+        flex: 1;
+        padding: 1rem;
+        background-color: #f9f9f9;
+        overflow-x: hidden;
+
+        @media (max-width: 768px) {
+            padding: 0.5rem;
+        }
+    }
+
+    .footer {
+        width: 100%;
+        background-color: #fff;
+        border-top: 1px solid #eaeaea;
+    }
+}

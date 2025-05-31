@@ -1,0 +1,43 @@
+<div class="experience-wrapper" #experince [title]="'Satendra Rajput'">
+  <h1 class="section-heading"><span>Work Experience</span></h1>
+  <p class="section-subtext">I have worked with multiple companies, and my decision to switch has largely been driven by the company culture.</p>
+
+  <div class="work-experience">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <ul>
+        @for (company of companies; track company) {
+          <li
+            (click)="selectCompany(company)"
+            [class.active]="company.name === selectedCompany?.name"
+            >
+            <span class="left-border"></span>
+            <div class="company-info">
+              <img [src]="company.icon" alt="{{ company.name }}" />
+              <span>{{ company.name }}</span>
+            </div>
+          </li>
+        }
+      </ul>
+    </div>
+
+    <!-- Content Area -->
+    @if (selectedCompany) {
+      <div class="content">
+        <div class="inner-content">
+          <h2>
+            {{selectedCompany.degination}} <span class="highlight">&#64;{{ selectedCompany.name }}</span>
+          </h2>
+          <p class="duration">{{ selectedCompany.duration }} | {{ selectedCompany.location }}</p>
+          <div class="description">
+            <ul>
+              @for (point of selectedCompany.points; track point) {
+                <li>🔹{{ point }}</li>
+              }
+            </ul>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>

@@ -1,1 +1,28 @@
-<p>menu-card works!</p>
+<header [ngClass]="{'scrolled': isScrolled}">
+  <div class="container">
+    <div class="header-content">
+      <a href="#" class="logo" (click)="scrollToTop()">
+        <img src="/logo.png" alt="">
+      </a>
+
+      <button class="menu-toggle" [ngClass]="{'active': menuOpen}" (click)="toggleMenu()" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav [ngClass]="{'open': menuOpen}">
+        <ul>
+          <li><a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+              (click)="closeMenu()">Home</a></li>
+          <li><a routerLink="/about" routerLinkActive="active" (click)="closeMenu()">About</a></li>
+          <li><a routerLink="/projects" routerLinkActive="active" (click)="closeMenu()">Projects</a></li>
+          <li><a routerLink="/experience" routerLinkActive="active" (click)="closeMenu()">Experience</a></li>
+          <li><a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()">Contact</a></li>
+        </ul>
+      </nav>
+
+
+    </div>
+  </div>
+</header>

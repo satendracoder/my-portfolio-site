@@ -1,0 +1,119 @@
+.newsletter-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+
+  .newsletter-card {
+    display: flex;
+    flex-direction: row;
+    background: #ffffff;
+    border-radius: 16px;
+    gap: 0rem;
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .newsletter-left {
+      flex: 1;
+      padding: 0.5rem 2rem;
+      box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+      margin: 15px;
+      border-radius: 10px;
+
+      .logo {
+        width: 32px;
+        margin-bottom: 1rem;
+      }
+
+      .title {
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #202020;
+        margin-bottom: 1rem;
+      }
+
+      .description {
+        font-size: 1rem;
+        color: #444;
+        margin-bottom: 1rem;
+      }
+
+      .author {
+        font-size: 0.95rem;
+        color: #444;
+        margin-bottom: 1.5rem;
+
+        .verified {
+          color: #f57c00;
+          margin-left: 4px;
+        }
+      }
+
+      .subscribe-form {
+        display: flex;
+        gap: 0;
+        margin-bottom: 1rem;
+
+        input {
+          flex: 1;
+          padding: 0.75rem;
+          border: 1px solid #ccc;
+          border-top-left-radius: 6px;
+          border-bottom-left-radius: 6px;
+          outline: none;
+          font-size: 1rem;
+        }
+
+        button {
+          background: #02aaf7;
+          color: white;
+          border: none;
+          padding: 0 1.5rem;
+          font-size: 1rem;
+          border-top-right-radius: 6px;
+          border-bottom-right-radius: 6px;
+          cursor: pointer;
+        }
+      }
+
+      .agreement {
+        font-size: 0.75rem;
+        color: #888;
+
+        a {
+          color: #666;
+          text-decoration: underline;
+        }
+      }
+
+      .substack {
+        font-size: 0.75rem;
+        margin-top: 0.5rem;
+        color: #ccc;
+      }
+    }
+
+    .newsletter-right {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+
+      .profile-img {
+        width: 100%;
+        max-width: 320px;
+        border-radius: 16px;
+        object-fit: cover;
+      }
+
+      @media (max-width: 768px) {
+        padding: 1rem;
+      }
+    }
+  }
+}

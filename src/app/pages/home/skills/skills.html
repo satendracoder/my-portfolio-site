@@ -1,0 +1,23 @@
+<section id="skills" class="skills">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+    
+    <div class="category-filter" data-aos="fade-up">
+      <button 
+        *ngFor="let category of categories" 
+        [class.active]="selectedCategory === category"
+        (click)="changeCategory(category)">
+        {{ category }}
+      </button>
+    </div>
+    
+    <div class="skills-container">
+      <app-skill-card 
+        *ngFor="let skill of filteredSkills(); let i = index" 
+        [skill]="skill"
+        [attr.data-aos]="'fade-up'"
+        [attr.data-aos-delay]="i * 50">
+      </app-skill-card>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,80 @@
+<section class="project-details" *ngIf="project">
+  <div class="project-hero" [style.backgroundImage]="'url(' + project.image + ')'">
+    <div class="overlay">
+      <div class="container">
+        <h1 data-aos="fade-up">{{ project.title }}</h1>
+        <p data-aos="fade-up" data-aos-delay="100">{{ project.description }}</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="project-content">
+      <div class="project-info" data-aos="fade-right">
+        <h3>Project Information</h3>
+        
+        <div class="info-list">
+          <div class="info-item">
+            <span class="info-label">Client</span>
+            <span class="info-value">{{ project.client }}</span>
+          </div>
+          
+          <div class="info-item">
+            <span class="info-label">Date</span>
+            <span class="info-value">{{ project.date }}</span>
+          </div>
+          
+          <div class="info-item">
+            <span class="info-label">Category</span>
+            <span class="info-value">{{ project.category }}</span>
+          </div>
+          
+          <div class="info-item">
+            <span class="info-label">Role</span>
+            <span class="info-value">{{ project.role }}</span>
+          </div>
+        </div>
+        
+        <div class="project-links">
+          <a [href]="project.demoUrl" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <i class="fas fa-eye"></i> Live Demo
+          </a>
+          <a [href]="project.codeUrl" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i class="fab fa-github"></i> Source Code
+          </a>
+        </div>
+      </div>
+      
+      <div class="project-description" data-aos="fade-left">
+        <h3>Project Overview</h3>
+        <p>{{ project.longDescription }}</p>
+        
+        <h3>Features</h3>
+        <ul class="features-list">
+          <li *ngFor="let feature of project.features">{{ feature }}</li>
+        </ul>
+        
+        <h3>Technologies Used</h3>
+        <div class="technologies">
+          <span *ngFor="let tech of project.technologies">{{ tech }}</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-gallery">
+      <h3 data-aos="fade-up">Project Gallery</h3>
+      
+      <div class="gallery-container">
+        <div class="gallery-item" *ngFor="let image of project.gallery; let i = index" [attr.data-aos]="'fade-up'" [attr.data-aos-delay]="i * 100">
+          <img [src]="image" [alt]="'Project Image ' + (i + 1)">
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-center" data-aos="fade-up">
+      <a routerLink="/projects" class="btn btn-primary">
+        <i class="fas fa-arrow-left"></i> Back to Projects
+      </a>
+    </div>
+  </div>
+</section>
