@@ -1,0 +1,20 @@
+/* Light theme */
+body.light-theme {
+    //for body only
+    --primary-bg: #f5f5f5;
+    --primary-color: #000000;
+    --primary-btn-bg:#019d91; //#ff4500
+    --primary-btn-color:#fff;
+    --secondary-bg:#222b45;
+    --secondary-color:#222b45;
+    --footer-bg:#fff;
+    --project-bg:#dae2f9;
+
+    //banner card
+    --banner-bg:#dae2f9;
+}
+
+body.light-theme {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
