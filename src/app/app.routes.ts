@@ -31,14 +31,14 @@ export const routes: Routes = [
                 path: 'projects/:id',
                 loadComponent: () => import('./pages/home/project-details/project-details')
                     .then(m => m.ProjectDetails),
-                data: {
-                    renderMode: 'pre-render',
-                    prerenderIds: [
-                        { id: '1' },
-                        { id: '2' },
-                        { id: '3' }
-                    ]
-                }
+    data: {
+        renderMode: 'pre-render',
+        getPrerenderParams: () => [
+            { id: '1' },
+            { id: '2' },
+            { id: '3' }
+        ]
+    },
             }
         ]
     },
