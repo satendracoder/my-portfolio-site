@@ -1,28 +1,34 @@
-<header [ngClass]="{'scrolled': isScrolled}">
-  <div class="container">
-    <div class="header-content">
-      <a href="#" class="logo" (click)="scrollToTop()">
-        <img src="/logo.png" alt="">
-      </a>
-
-      <button class="menu-toggle" [ngClass]="{'active': menuOpen}" (click)="toggleMenu()" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <nav [ngClass]="{'open': menuOpen}">
-        <ul>
-          <li><a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-              (click)="closeMenu()">Home</a></li>
-          <li><a routerLink="/about" routerLinkActive="active" (click)="closeMenu()">About</a></li>
-          <li><a routerLink="/projects" routerLinkActive="active" (click)="closeMenu()">Projects</a></li>
-          <li><a routerLink="/experience" routerLinkActive="active" (click)="closeMenu()">Experience</a></li>
-          <li><a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()">Contact</a></li>
-        </ul>
-      </nav>
-
-
+<header>
+  <div class="header-content">
+    <div class="logo">
+      <img src="/logo.png" alt="Logo" />
     </div>
+    <nav class="desktop-nav">
+      <ul>
+        <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+        <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+        <li><a routerLink="/projects" routerLinkActive="active">Projects</a></li>
+        <li><a routerLink="/experience" routerLinkActive="active">Experience</a></li>
+        <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" (click)="toggleMenu()">☰</button>
   </div>
 </header>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" [ngClass]="{ 'open': menuOpen }">
+  <div class="mobile-header">
+    <button class="close-btn" (click)="closeMenu()">✕</button>
+  </div>
+  <ul>
+    <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()">Home</a></li>
+    <li><a routerLink="/about" routerLinkActive="active" (click)="closeMenu()">About</a></li>
+    <li><a routerLink="/projects" routerLinkActive="active" (click)="closeMenu()">Projects</a></li>
+    <li><a routerLink="/experience" routerLinkActive="active" (click)="closeMenu()">Experience</a></li>
+    <li><a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()">Contact</a></li>
+  </ul>
+</div>
+
+<!-- Backdrop -->
+<div class="mobile-backdrop" [ngClass]="{ 'visible': menuOpen }" (click)="closeMenu()"></div>

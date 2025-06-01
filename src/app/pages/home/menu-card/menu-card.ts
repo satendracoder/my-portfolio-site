@@ -11,34 +11,15 @@ import { filter } from 'rxjs';
 })
 export class MenuCard {
 
- isScrolled = false;
-  menuOpen = false;
-  activeSection = 'home';
-
-  constructor(private router: Router) {
-    this.router.events.pipe(
-      filter(event => event instanceof NavigationEnd)
-    ).subscribe((event: any) => {
-      // Extract the section from the URL
-      const path = event.urlAfterRedirects.split('/')[1] || 'home';
-      this.activeSection = path;
-    });
-  }
-
-  @HostListener('window:scroll', [])
-  onWindowScroll() {
-    this.isScrolled = window.scrollY > 50;
-  }
+menuOpen = false;
 
   toggleMenu() {
     this.menuOpen = !this.menuOpen;
+    document.body.style.overflow = this.menuOpen ? 'hidden' : 'auto';
   }
 
   closeMenu() {
     this.menuOpen = false;
-  }
-
-  scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.body.style.overflow = 'auto';
   }
 }
