@@ -19,6 +19,7 @@ interface Project_1 {
 })
 export class Project {
 projects: Project_1[] = [
+  // 1_Fine Quick 
    {
       id: 1,
       title: 'FineQuick Multi-Utility SaaS Platform',
@@ -29,6 +30,8 @@ projects: Project_1[] = [
       demoUrl: 'https://www.finequick.com/',
       codeUrl: 'https://github.com/satendrasde'
     },
+
+    // 2_Redmil Fintech 
     {
       id: 2,
       title: 'Fintech Platform',
@@ -40,6 +43,7 @@ projects: Project_1[] = [
       codeUrl: 'https://github.com/satendrasde'
     },
 
+    // 3_Redmil HDFC
     {
       id: 3,
       title: 'Jan Samarth Referred Cases Dashboard (Angular)',
@@ -51,6 +55,7 @@ projects: Project_1[] = [
       codeUrl: 'https://github.com/satendrasde'
     },
 
+    // 4_Webconvoy Gaming Platform
     {
       id: 4,
       title: 'Online Gambling Platform',
@@ -62,6 +67,7 @@ projects: Project_1[] = [
       codeUrl: 'https://github.com/satendrasde'
     },
 
+    // 5_Webconvoy PPF(Paint Protection Film)
     {
       id: 5,
       title: 'PPF(Paint Protection Film)',
@@ -73,16 +79,18 @@ projects: Project_1[] = [
       codeUrl: 'https://github.com/satendrasde'
     },
 
+    //_6 Port Portfolio Website
     {
       id: 6,
-      title: 'Portfolio Website',
+      title: 'Personal Portfolio Website',
       description: 'A personal portfolio website showcasing projects, skills, and professional experience.',
-      image: 'https://images.pexels.com/photos/245240/pexels-photo-245240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      technologies: ['Angular', 'SCSS', 'TypeScript'],
-      category: 'Web Development',
-      demoUrl: 'https://example.com',
-      codeUrl: 'https://github.com'
+      image: '/assets/images/projects/portfolio_myself/homelight.png',
+      technologies: ['HTML','CSS','Angular', 'TypeScript', 'Material UI', 'Java Spring Boot', 'Rest APIs'],
+      category: 'Collage & Myself',
+      demoUrl: 'https://satendrasde.vercel.app/',
+      codeUrl: 'https://github.com/satendrasde'
     },
+
     {
       id: 7,
       title: 'Recipe Finder',

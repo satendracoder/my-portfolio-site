@@ -32,7 +32,7 @@ export class ProjectDetails {
   // Dummy data for the project details
   projects: Project[] = [
 
-    // Fine Quick
+    //1 Fine Quick
     {
       id: 1,
       title: 'Fine Quick - Multi-Utility SaaS Platform',
@@ -95,7 +95,7 @@ export class ProjectDetails {
       location: 'Tilpata Karanwas, Greater Noida, Uttar Pradesh 201306,India',
     },
 
-    // Redmil Fintech
+    // 2 Redmil Fintech
     {
       id: 2,
       title: 'Fintech Platform',
@@ -145,7 +145,7 @@ export class ProjectDetails {
       location: 'Sector 142 Noida, Uttar Pradesh',
     },
 
-    // Redmil HDFC
+    //3 Redmil HDFC
     {
       id: 3,
       title: 'Jan Samarth Referred Cases Dashboard (Angular)',
@@ -189,7 +189,7 @@ export class ProjectDetails {
       location: 'Sector 142 Noida, Uttar Pradesh',
     },
 
-    // WebConvoy Gaming Website
+    //4 WebConvoy Gaming Website
     {
       id: 4,
       title: 'Online Gambling Platform',
@@ -242,7 +242,7 @@ export class ProjectDetails {
       location: 'H-159, Sector 63 Rd, H Block, Sector 63, Noida',
     },
 
-    // PPF
+    //5 PPF
     {
       id: 5,
       title: 'PPF(Paint Protection Film)',
@@ -297,6 +297,47 @@ export class ProjectDetails {
       date: 'March 2023',
       role: 'Frontend Developer(Angular)',
       location: 'H-159, Sector 63 Rd, H Block, Sector 63, Noida',
+    },
+
+    //5 Portfolio Website
+    {
+      id:6,
+      title: 'Personal Portfolio Website',
+      description:'A personal portfolio website showcasing projects, skills, and professional experience...',
+      longDescription:
+        'Designed and developed a personal portfolio website to highlight my skills, projects, professional experience, and achievements. The website serves as a professional platform to represent my technical expertise, display live project demos, and provide recruiters or clients with easy access to my work and contact details.',
+      image: '/assets/images/projects/portfolio_myself/homelight.png',
+      gallery: [
+        '/assets/images/projects/portfolio_myself/homelight.png',
+        '/assets/images/projects/portfolio_myself/homedark.png',
+        '/assets/images/projects/portfolio_myself/aboutlight.png',
+        '/assets/images/projects/portfolio_myself/aboutdark.png',
+        '/assets/images/projects/portfolio_myself/contactlight.png',
+        '/assets/images/projects/portfolio_myself/contactdark.png',
+        '/assets/images/projects/portfolio_myself/experi_dark.png',
+        '/assets/images/projects/portfolio_myself/experidark.png',
+        '/assets/images/projects/portfolio_myself/project_main.png',
+        '/assets/images/projects/portfolio_myself/project_1.png',
+        '/assets/images/projects/portfolio_myself/project_2.png',
+        '/assets/images/projects/portfolio_myself/project_3.png',
+      ],
+      technologies: ['HTML','CSS','Angular', 'TypeScript', 'Material UI', 'Java Spring Boot', 'Rest APIs'],
+      category: 'Satendra Rajput',
+      demoUrl: 'https://satendrasde.vercel.app/',
+      codeUrl: 'https://github.com/satendrasde',
+      features: [
+        'Designed the entire website layout using modern, clean, and minimalistic UI.',
+        'Built reusable components for sections like Projects, Skills, and Contact.',
+        'Added form validation and email sending feature for contact forms.',
+        'Integrated animations (if used) for smooth transitions and better UX.',
+        'Focused on SEO optimization for better visibility on search engines.',
+        'Ensured cross-browser compatibility and fast page load times.',
+        'Managed hosting and deployment (if applicable) on platforms like Vercel, Netlify, or custom servers.'
+      ],
+      client: 'Ownership',
+      date: 'March 2023',
+      role: 'Software Engineer',
+      location: 'Sector 62 Noida, UP, India',
     },
 
     
