@@ -346,7 +346,7 @@ export class ProjectDetails {
       title: 'Study Library (College Major Project)',
       description:'Study Library is an online educational platform designed to assist students, parents, and education stakeholders in accessing...',
       longDescription:
-        'Study Library is an online educational platform designed to assist students, parents, and education stakeholders in accessing a wide variety of educational materials. The platform allows users to browse by exams, courses, boards, and classes with a clean, responsive interface.',
+        'Study Library is an online educational platform designed to assist students, parents, and education stakeholders in accessing a wide variety of educational materials. The platform allows users to browse by exams, courses, boards, and classes with a clean, responsive interface.Angular Routing for smooth page navigation, ✅Bootstrap-based responsive design, ✅Category-wise filterable content (Class 6th to 12th), ✅Static content based project (no API integrations), ✅Image optimization for better performance, ✅Newsletter Subscription form UI, ✅Footer with categorized useful links and social media buttons',
       image: '/assets/images/projects/lms_myself/home.jpg',
       gallery: [
         '/assets/images/projects/lms_myself/home.jpg',
@@ -364,13 +364,11 @@ export class ProjectDetails {
       demoUrl: 'https://satendrasde.vercel.app/',
       codeUrl: 'https://github.com/satendrasde',
       features: [
-        'Created full responsive layout for mobile, tablet, desktop.',
-        'Used Bootstrap grid for layout alignment',
-        'Used Angular components for modular code separation (e.g., Header, Footer, Courses, Contact Form).',
-        'Built home page, category pages, contact form, article/detail view.',
-        'Sidebar menus for quick access to educational resources.',
-        'Footer with important university/exam/career/board links.',
-        'Data for pages was static or added manually (like courses, links, etc.).',
+        'Designed and developed complete frontend architecture using Angular.',
+        'Integrated Bootstrap grid system for responsive layouts.',
+        'Created reusable components for Header, Footer, Courses, Categories, etc.',
+        'Ensured all images, links, and page content were mobile optimized.',
+        'Handled testing across browsers for responsiveness and consistency.',
         'No dynamic API fetching from backend.'
       ],
       client: 'Ownership',
