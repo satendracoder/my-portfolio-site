@@ -299,7 +299,7 @@ export class ProjectDetails {
       location: 'H-159, Sector 63 Rd, H Block, Sector 63, Noida',
     },
 
-    //5 Portfolio Website
+    //6 Portfolio Website
     {
       id:6,
       title: 'Personal Portfolio Website',
@@ -340,7 +340,44 @@ export class ProjectDetails {
       location: 'Sector 62 Noida, UP, India',
     },
 
-    
+    //7 Study Library (College Major Project)
+    {
+      id:7,
+      title: 'Study Library (College Major Project)',
+      description:'Study Library is an online educational platform designed to assist students, parents, and education stakeholders in accessing...',
+      longDescription:
+        'Study Library is an online educational platform designed to assist students, parents, and education stakeholders in accessing a wide variety of educational materials. The platform allows users to browse by exams, courses, boards, and classes with a clean, responsive interface.',
+      image: '/assets/images/projects/lms_myself/home.jpg',
+      gallery: [
+        '/assets/images/projects/lms_myself/home.jpg',
+        '/assets/images/projects/lms_myself/categories.jpg',
+        '/assets/images/projects/lms_myself/find_up.jpg',
+        '/assets/images/projects/lms_myself/gallery.jpg',
+        '/assets/images/projects/lms_myself/footer.jpg',
+        '/assets/images/projects/lms_myself/article_page.jpg',
+        '/assets/images/projects/lms_myself/article_page_2.png',
+        '/assets/images/projects/lms_myself/article_page_1.jpg',
+        
+      ],
+      technologies: ['HTML','CSS','Angular', 'TypeScript', 'Material UI', 'Java Spring Boot', 'Rest APIs'],
+      category: 'Avviare Educational Hub College',
+      demoUrl: 'https://satendrasde.vercel.app/',
+      codeUrl: 'https://github.com/satendrasde',
+      features: [
+        'Created full responsive layout for mobile, tablet, desktop.',
+        'Used Bootstrap grid for layout alignment',
+        'Used Angular components for modular code separation (e.g., Header, Footer, Courses, Contact Form).',
+        'Built home page, category pages, contact form, article/detail view.',
+        'Sidebar menus for quick access to educational resources.',
+        'Footer with important university/exam/career/board links.',
+        'Data for pages was static or added manually (like courses, links, etc.).',
+        'No dynamic API fetching from backend.'
+      ],
+      client: 'Ownership',
+      date: 'March 2023',
+      role: 'College Major Project',
+      location: 'A/20, C-56, near Fortis Metro Station, C Block, Phase 2, Industrial Area, Sector 62, Noida, Uttar Pradesh 201301',
+    },
   ];
 
   constructor(private route: ActivatedRoute) {}

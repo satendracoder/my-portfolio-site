@@ -91,15 +91,16 @@ projects: Project_1[] = [
       codeUrl: 'https://github.com/satendrasde'
     },
 
+    // Collage time Project
     {
       id: 7,
-      title: 'Recipe Finder',
-      description: 'A culinary application for discovering recipes based on available ingredients and dietary preferences.',
-      image: 'https://images.pexels.com/photos/8472854/pexels-photo-8472854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      technologies: ['Vue.js', 'Vuex', 'Node.js', 'MongoDB'],
-      category: 'Web Development',
-      demoUrl: 'https://example.com',
-      codeUrl: 'https://github.com'
+      title: 'Study Library (College Major Project)',
+      description: 'Study Library is an online educational platform designed to assist students, parents, and education stakeholders in accessing...',
+      image: '/assets/images/projects/lms_myself/home.jpg',
+      technologies: ['HTML', 'CSS','TypeScript','Angular_12', 'Material UI', 'Bootstrap'],
+      category: 'Collage & Myself',
+      demoUrl: 'https://satendrasde.com/contact',
+      codeUrl: 'https://github.com/satendrasde'
     }
   ];
 
