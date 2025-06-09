@@ -3,6 +3,10 @@
   justify-content: center;
   padding: 3rem;
 
+  @media screen and (max-width:480px) {
+       padding: 1rem;
+  }
+
   .newsletter-card {
     display: flex;
     flex-direction: row;
@@ -23,7 +27,9 @@
       box-shadow: 0 0px 10px #666;
       margin: 15px;
       border-radius: 10px;
-     
+       @media screen and (max-width:480px) {
+         margin: 4px;
+      }
 
       .logo {
         width: 32px;
@@ -78,6 +84,10 @@
           border-top-right-radius: 6px;
           border-bottom-right-radius: 6px;
           cursor: pointer;
+
+           @media screen and (max-width:480px) {
+        padding: 0 0.4rem;
+  }
         }
       }
 
@@ -112,7 +122,7 @@
       }
 
       @media (max-width: 768px) {
-        padding: 1rem;
+        padding: .5rem;
       }
     }
   }
