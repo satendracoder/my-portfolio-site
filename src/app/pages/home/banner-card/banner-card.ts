@@ -1,3 +1,5 @@
+import { Router, RouterLink } from '@angular/router';
+import { routes } from './../../../app.routes';
 import { Component } from '@angular/core';
 
 @Component({
@@ -8,7 +10,7 @@ import { Component } from '@angular/core';
 })
 export class BannerCard {
 
-roles: string[] = ['UI/UX Designer', 'Web Developer', 'Mobile Developer', 'Software Engineer'];
+  roles: string[] = ['UI/UX Designer', 'Web Developer', 'Mobile Developer', 'Software Engineer'];
   currentRoleIndex = 0;
   currentRole = '';
   typingSpeed = 100; // ms per character
@@ -16,7 +18,7 @@ roles: string[] = ['UI/UX Designer', 'Web Developer', 'Mobile Developer', 'Softw
   delayAfterTyping = 2000; // ms to wait after typing
   delayAfterErasing = 500; // ms to wait after erasing
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
@@ -36,7 +38,7 @@ roles: string[] = ['UI/UX Designer', 'Web Developer', 'Mobile Developer', 'Softw
         charIndex++;
       } else {
         clearInterval(typeInterval);
-        
+
         // Wait before erasing
         setTimeout(() => {
           this.eraseText();
@@ -52,10 +54,10 @@ roles: string[] = ['UI/UX Designer', 'Web Developer', 'Mobile Developer', 'Softw
         this.currentRole = this.currentRole.slice(0, -1);
       } else {
         clearInterval(eraseInterval);
-        
+
         // Move to next role
         this.currentRoleIndex = (this.currentRoleIndex + 1) % this.roles.length;
-        
+
         // Wait before typing the next role
         setTimeout(() => {
           this.typeText();
@@ -63,4 +65,6 @@ roles: string[] = ['UI/UX Designer', 'Web Developer', 'Mobile Developer', 'Softw
       }
     }, this.eraseSpeed);
   }
+
+ 
 }
