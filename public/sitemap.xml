@@ -8,9 +8,41 @@
   <!-- Homepage -->
   <url>
     <loc>https://satendrasde.vercel.app/</loc>
-    <lastmod>2025-07-03T15:41:26+00:00</lastmod>
+    <lastmod>2025-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://satendrasde.vercel.app/about</loc>
+    <lastmod>2025-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://satendrasde.vercel.app/contact</loc>
+    <lastmod>2025-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Experience -->
+  <url>
+    <loc>https://satendrasde.vercel.app/experience</loc>
+    <lastmod>2025-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Projects -->
+  <url>
+    <loc>https://satendrasde.vercel.app/projects</loc>
+    <lastmod>2025-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 
 </urlset>
