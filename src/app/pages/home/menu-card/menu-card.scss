@@ -12,8 +12,6 @@ header {
   border-radius: 80px;
   border: 0.5px solid var(--text-color);
   padding: 8px 15px
-
-  
 }
 
 .header-content {
@@ -131,10 +129,11 @@ header {
 }
 
 @media (max-width: 768px) {
-  header{
+  header {
     border: none !important;
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
   }
+
   .desktop-nav {
     display: none;
   }
@@ -143,7 +142,7 @@ header {
     display: block !important;
   }
 
-  .header{
+  .header {
     border: none;
   }
 }
