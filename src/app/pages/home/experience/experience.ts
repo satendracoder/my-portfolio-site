@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 interface Experience_1 {
   id: number;
@@ -16,6 +17,13 @@ interface Experience_1 {
   styleUrl: './experience.scss'
 })
 export class Experience {
+
+   constructor(private meta: Meta, private titleService: Title) {}
+
+  ngOnInit(): void {
+    this.setMetaTags();
+  }
+
   companies:any = [
     {
       name: 'Fine Quick Solutions',
@@ -83,5 +91,32 @@ export class Experience {
 
   selectCompany(company: any) {
     this.selectedCompany = company;
+  }
+
+  setMetaTags(): void {
+    const pageTitle = 'Work Experience | Satendra Rajput - Angular & Java Full Stack Developer';
+    const pageDescription = 'Explore the professional work experience of Satendra Rajput across Fine Quick Solutions, Redmil, WebConvoy, and Caria Electronics. Hands-on roles in Angular, Java Spring Boot, SaaS platforms, fintech, and LMS systems.';
+    const imageUrl = 'https://satendrasde.vercel.app/assets/images/meta-experience.jpg'; // ✅ Replace with real image
+    const pageUrl = 'https://satendrasde.vercel.app/experience';
+
+    this.titleService.setTitle(pageTitle);
+
+    this.meta.updateTag({ name: 'description', content: pageDescription });
+    this.meta.updateTag({ name: 'author', content: 'Satendra Rajput' });
+    this.meta.updateTag({ name: 'keywords', content: 'Satendra Rajput Work Experience, Fine Quick Solutions, Redmil Business, WebConvoy, Caria Electronics, Software Engineer, Angular Developer, Full Stack Developer, LMS Developer, Fintech Developer' });
+    this.meta.updateTag({ name: 'robots', content: 'index, follow' });
+
+    // Open Graph
+    this.meta.updateTag({ property: 'og:title', content: pageTitle });
+    this.meta.updateTag({ property: 'og:description', content: pageDescription });
+    this.meta.updateTag({ property: 'og:image', content: imageUrl });
+    this.meta.updateTag({ property: 'og:url', content: pageUrl });
+    this.meta.updateTag({ property: 'og:type', content: 'website' });
+
+    // Twitter Card
+    this.meta.updateTag({ name: 'twitter:card', content: 'summary_large_image' });
+    this.meta.updateTag({ name: 'twitter:title', content: pageTitle });
+    this.meta.updateTag({ name: 'twitter:description', content: pageDescription });
+    this.meta.updateTag({ name: 'twitter:image', content: imageUrl });
   }
 }

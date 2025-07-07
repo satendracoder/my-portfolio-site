@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ProjectCard } from "../project-card/project-card";
 import { CommonModule } from '@angular/common';
+import { Meta, Title } from '@angular/platform-browser';
 interface Project_1 {
   id: number;
   title: string;
@@ -18,6 +19,12 @@ interface Project_1 {
   styleUrl: './project.scss'
 })
 export class Project {
+ constructor(private meta: Meta, private titleService: Title) {}
+
+  ngOnInit(): void {
+    this.setMetaTags();
+  }
+
 projects: Project_1[] = [
   // 1_Fine Quick 
    {
@@ -116,5 +123,34 @@ projects: Project_1[] = [
 
   changeCategory(category: string): void {
     this.selectedCategory = category;
+  }
+
+
+
+  setMetaTags(): void {
+    const pageTitle = 'Projects by Satendra Rajput | Angular & Java Full Stack Developer';
+    const pageDescription = 'Explore major projects built by Satendra Rajput, including FineQuick SaaS, Fintech platforms, dashboards, PPF apps, and more using Angular, Java Spring Boot, and MySQL.';
+    const imageUrl = 'https://satendrasde.vercel.app/assets/images/meta-projects.jpg'; // ✅ Replace with actual thumbnail or banner
+    const pageUrl = 'https://satendrasde.vercel.app/projects';
+
+    this.titleService.setTitle(pageTitle);
+
+    this.meta.updateTag({ name: 'description', content: pageDescription });
+    this.meta.updateTag({ name: 'author', content: 'Satendra Rajput' });
+    this.meta.updateTag({ name: 'keywords', content: 'Satendra Rajput Projects, Angular Projects, Java Spring Boot Portfolio, Fintech Dashboard, SaaS Platform, FineQuick, Webconvoy, PPF, Gambling Platform, Jan Samarth Dashboard, Study Library' });
+    this.meta.updateTag({ name: 'robots', content: 'index, follow' });
+
+    // Open Graph (for LinkedIn/Facebook sharing)
+    this.meta.updateTag({ property: 'og:title', content: pageTitle });
+    this.meta.updateTag({ property: 'og:description', content: pageDescription });
+    this.meta.updateTag({ property: 'og:image', content: imageUrl });
+    this.meta.updateTag({ property: 'og:url', content: pageUrl });
+    this.meta.updateTag({ property: 'og:type', content: 'website' });
+
+    // Twitter Card
+    this.meta.updateTag({ name: 'twitter:card', content: 'summary_large_image' });
+    this.meta.updateTag({ name: 'twitter:title', content: pageTitle });
+    this.meta.updateTag({ name: 'twitter:description', content: pageDescription });
+    this.meta.updateTag({ name: 'twitter:image', content: imageUrl });
   }
 }

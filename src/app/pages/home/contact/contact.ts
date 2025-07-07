@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, ReactiveFormsModule } from '@angular/forms';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-contact',
@@ -12,7 +13,7 @@ export class Contact {
  contactForm!: FormGroup;
   formSubmitted = false;
   
-  constructor(private fb: FormBuilder) {
+  constructor(private meta: Meta, private titleService: Title,private fb: FormBuilder) {
     this.contactForm = this.fb.group({
       name: ['', [Validators.required, Validators.minLength(2)]],
       email: ['', [Validators.required, Validators.email]],
@@ -22,6 +23,7 @@ export class Contact {
   }
   
   onSubmit() {
+    this.setMetaTags();
     this.formSubmitted = true;
     
     if (this.contactForm.valid) {
@@ -53,5 +55,33 @@ export class Contact {
   isInvalid(field: string) {
     const control = this.contactForm.get(field);
     return control?.invalid && (control?.dirty || control?.touched);
+  }
+
+
+  setMetaTags(): void {
+    const pageTitle = 'Contact Satendra Rajput | Hire Angular & Java Full Stack Developer';
+    const pageDescription = 'Get in touch with Satendra Rajput, a Full Stack Developer with expertise in Angular and Java Spring Boot. Available for full-time roles, freelance, and collaboration.';
+    const imageUrl = 'https://satendrasde.vercel.app/assets/images/meta-profile.jpg'; // ✅ Replace with your actual image
+    const pageUrl = 'https://satendrasde.vercel.app/contact';
+
+    this.titleService.setTitle(pageTitle);
+
+    this.meta.updateTag({ name: 'description', content: pageDescription });
+    this.meta.updateTag({ name: 'author', content: 'Satendra Rajput' });
+    this.meta.updateTag({ name: 'keywords', content: 'Contact Satendra Rajput, Hire Angular Developer, Full Stack Developer India, Java Spring Boot Developer, Developer Contact Noida, Web Developer Hire' });
+    this.meta.updateTag({ name: 'robots', content: 'index, follow' });
+
+    // Open Graph
+    this.meta.updateTag({ property: 'og:title', content: pageTitle });
+    this.meta.updateTag({ property: 'og:description', content: pageDescription });
+    this.meta.updateTag({ property: 'og:image', content: imageUrl });
+    this.meta.updateTag({ property: 'og:url', content: pageUrl });
+    this.meta.updateTag({ property: 'og:type', content: 'website' });
+
+    // Twitter Card
+    this.meta.updateTag({ name: 'twitter:card', content: 'summary_large_image' });
+    this.meta.updateTag({ name: 'twitter:title', content: pageTitle });
+    this.meta.updateTag({ name: 'twitter:description', content: pageDescription });
+    this.meta.updateTag({ name: 'twitter:image', content: imageUrl });
   }
 }
