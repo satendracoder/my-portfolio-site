@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class NewsletterCard {
 
   sendurl(){
-    window.open('https://growtheditor.com', '_blank');
+    window.open('https://satendracoder.com', '_blank');
     return false;
   }
 }
