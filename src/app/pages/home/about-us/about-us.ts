@@ -26,7 +26,7 @@ export class AboutUs {
 
     this.meta.updateTag({ name: 'description', content: pageDescription });
     this.meta.updateTag({ name: 'author', content: 'Satendra Rajput' });
-    this.meta.updateTag({ name: 'keywords', content: 'Satendra Rajput, Angular Developer, Full Stack Developer, Java Spring Boot, Fintech Projects, Developer Portfolio, Noida Developer' });
+    this.meta.updateTag({ name: 'keywords', content: 'Satendra Coder, Angular Developer, Full Stack Developer, Java Spring Boot, Fintech Projects, Developer Portfolio, Noida Developer' });
     this.meta.updateTag({ name: 'robots', content: 'index, follow' });
 
     // Open Graph (Facebook, LinkedIn, etc.)

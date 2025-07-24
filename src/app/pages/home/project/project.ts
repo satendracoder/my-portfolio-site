@@ -137,7 +137,7 @@ projects: Project_1[] = [
 
     this.meta.updateTag({ name: 'description', content: pageDescription });
     this.meta.updateTag({ name: 'author', content: 'Satendra Rajput' });
-    this.meta.updateTag({ name: 'keywords', content: 'Satendra Rajput Projects, Angular Projects, Java Spring Boot Portfolio, Fintech Dashboard, SaaS Platform, FineQuick, Webconvoy, PPF, Gambling Platform, Jan Samarth Dashboard, Study Library' });
+    this.meta.updateTag({ name: 'keywords', content: 'Satendra Coder Projects, Angular Projects, Java Spring Boot Portfolio, Fintech Dashboard, SaaS Platform, FineQuick, Webconvoy, PPF, Gambling Platform, Jan Samarth Dashboard, Study Library' });
     this.meta.updateTag({ name: 'robots', content: 'index, follow' });
 
     // Open Graph (for LinkedIn/Facebook sharing)

@@ -68,7 +68,7 @@ export class Contact {
 
     this.meta.updateTag({ name: 'description', content: pageDescription });
     this.meta.updateTag({ name: 'author', content: 'Satendra Rajput' });
-    this.meta.updateTag({ name: 'keywords', content: 'Contact Satendra Rajput, Hire Angular Developer, Full Stack Developer India, Java Spring Boot Developer, Developer Contact Noida, Web Developer Hire' });
+    this.meta.updateTag({ name: 'keywords', content: 'Contact Satendra Coder, Hire Angular Developer, Full Stack Developer India, Java Spring Boot Developer, Developer Contact Noida, Web Developer Hire' });
     this.meta.updateTag({ name: 'robots', content: 'index, follow' });
 
     // Open Graph
