@@ -32,14 +32,14 @@ export class ProjectDetails {
   // Dummy data for the project details
   projects: Project[] = [
 
-    //1 Fine Quick
+    //1 SSBrinet Innovations
     {
       id: 1,
-      title: 'Fine Quick - Multi-Utility SaaS Platform',
+      title: 'SSBrinet Innovations - Multi-Utility SaaS Platform',
       description:
-        'Built Fine Quick, a SaaS platform with 150+ productivity tools using Angular & Spring Boot. Worked on frontend architecture, API integrations, responsive UI, and SEO optimization for tool-based pages.',
+        'Built SSBrinet Innovations, a SaaS platform with 150+ productivity tools using Angular & Spring Boot. Worked on frontend architecture, API integrations, responsive UI, and SEO optimization for tool-based pages.',
       longDescription:
-        'Developed Fine Quick, a full-stack SaaS platform offering 150+ online productivity tools including writing, SEO, PDF, developer utilities, calculators, converters, downloaders, and much more. The platform helps writers, students, bloggers, marketers, developers, and content creators to boost their productivity with free online tools.✅ Writing & Grammar Tools (Plagiarism Checker, Paraphrasing Tools, Grammar Checker), ✅ PDF Tools (Merge, Split, Compress, Convert to/from PDF), ✅ SEO & Keyword Tools (Keyword Research, Backlink Checker, SEO Audits), ✅ Video & Media Downloaders (Instagram, TikTok, YouTube, Twitter), ✅ Calculators & Utilities (GST Calculator, Loan Calculator, BMI Calculator), ✅ Developer Tools (JSON/XML Viewer, Encoder/Decoder, Minifiers, Formatters), ✅ Image Tools (Image Resizer, Compressor, Converter), ✅ Security Tools (MD5 Generator, Password Generator, JWT Decoder)',
+        'Developed SSBrinet Innovations, a full-stack SaaS platform offering 150+ online productivity tools including writing, SEO, PDF, developer utilities, calculators, converters, downloaders, and much more. The platform helps writers, students, bloggers, marketers, developers, and content creators to boost their productivity with free online tools.✅ Writing & Grammar Tools (Plagiarism Checker, Paraphrasing Tools, Grammar Checker), ✅ PDF Tools (Merge, Split, Compress, Convert to/from PDF), ✅ SEO & Keyword Tools (Keyword Research, Backlink Checker, SEO Audits), ✅ Video & Media Downloaders (Instagram, TikTok, YouTube, Twitter), ✅ Calculators & Utilities (GST Calculator, Loan Calculator, BMI Calculator), ✅ Developer Tools (JSON/XML Viewer, Encoder/Decoder, Minifiers, Formatters), ✅ Image Tools (Image Resizer, Compressor, Converter), ✅ Security Tools (MD5 Generator, Password Generator, JWT Decoder)',
       image: '/assets/images/projects/finequick_web/home.png',
       gallery: [
         '/assets/images/projects/finequick_web/home.png',
@@ -75,8 +75,8 @@ export class ProjectDetails {
         'Postman',
       ],
       category: 'Anant Rajput',
-      demoUrl: 'https://www.finequick.com/',
-      codeUrl: 'https://github.com/satendrasde',
+      demoUrl: 'https://www.SSBrinet.com/',
+      codeUrl: 'https://github.com/satendracoder',
       features: [
        'Designed and developed the frontend interface using Angular with modular, component-driven architecture.',
        'Created REST APIs using Spring Boot for dynamic tool rendering and processing.',
@@ -89,8 +89,8 @@ export class ProjectDetails {
        'Ensured error handling and smooth user feedback with toasts, loaders, and validations.',
        'Coordinated with backend team for performance optimizations and scaling strategies.'
       ],
-      client: 'Fine Quick Solutions',
-      date: 'June 2025 to Present (Part time)',
+      client: 'SSBrinet Innovations',
+      date: 'July 2025 to Present (Part time)',
       role: 'Software Engineer',
       location: 'Tilpata Karanwas, Greater Noida, Uttar Pradesh 201306,India',
     },
@@ -126,7 +126,7 @@ export class ProjectDetails {
       ],
       category: 'Sagar Raj Singhal',
       demoUrl: 'https://web.redmilbusinessmall.com/login',
-      codeUrl: 'https://github.com/satendrasde',
+      codeUrl: 'https://github.com/satendracoder',
       features: [
         'Integrated fintech services like APES, Aadhaar Pay, DMT, Micro-ATM, Recharge, and Bill Payment APIs for seamless user transactions.',
         'Implemented profile authentication and verification using secure API consumption for enhanced security and user trust.',
@@ -173,7 +173,7 @@ export class ProjectDetails {
       ],
       category: 'Sagar Raj Singhal',
       demoUrl: 'https://hdfc.betterbottech.ai/login/',
-      codeUrl: 'https://github.com/satendrasde',
+      codeUrl: 'https://github.com/satendracoder',
       features: [
         'Designed and developed a modular, component-driven architecture using Angular for scalability and maintainability.',
         'Data filtering and export functionalities',
@@ -226,7 +226,7 @@ export class ProjectDetails {
       ],
       category: 'Gaurav Singh - Director',
       demoUrl: 'https://poker9club.casino/',
-      codeUrl: 'https://github.com/satendrasde',
+      codeUrl: 'https://github.com/satendracoder',
       features: [
         'Designed responsive and interactive UI for core modules like login, registration, top-up, account, and transactions.',
         'Integrated REST APIs for user authentication, transaction processing, and player management.',
@@ -282,7 +282,7 @@ export class ProjectDetails {
       ],
       category: 'Gaurav Singh - Director',
       demoUrl: 'https://eazycool.com.sg/',
-      codeUrl: 'https://github.com/satendrasde',
+      codeUrl: 'https://github.com/satendracoder',
       features: [
         'Designed and implemented responsive frontend UI using Angular.',
         'Created dynamic car and product listing pages driven by data from backend APIs.',
@@ -324,7 +324,7 @@ export class ProjectDetails {
       technologies: ['HTML','CSS','Angular', 'TypeScript', 'Material UI', 'Java Spring Boot', 'Rest APIs'],
       category: 'Satendra Rajput',
       demoUrl: 'https://satendrasde.vercel.app/',
-      codeUrl: 'https://github.com/satendrasde',
+      codeUrl: 'https://github.com/satendracoder',
       features: [
         'Designed the entire website layout using modern, clean, and minimalistic UI.',
         'Built reusable components for sections like Projects, Skills, and Contact.',
@@ -362,7 +362,7 @@ export class ProjectDetails {
       technologies: ['HTML','CSS','Angular', 'TypeScript', 'Material UI', 'Java Spring Boot', 'Rest APIs'],
       category: 'Avviare Educational Hub College',
       demoUrl: 'https://satendrasde.vercel.app/',
-      codeUrl: 'https://github.com/satendrasde',
+      codeUrl: 'https://github.com/satendracoder',
       features: [
         'Designed and developed complete frontend architecture using Angular.',
         'Integrated Bootstrap grid system for responsive layouts.',

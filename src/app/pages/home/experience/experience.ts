@@ -28,7 +28,7 @@ export class Experience {
     {
       name: 'SSBrinet Innovations',
       icon: 'https://www.ssbrinet.com/favicon.png',
-      duration: 'June 2025 - Present (Part-time)',
+      duration: 'July 2025 - Present (Part-time)',
       degination: "Software Engineer",
       location: 'Greate Noida, Uttar Pradesh · Remote',
       points: [

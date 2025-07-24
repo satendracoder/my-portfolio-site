@@ -26,16 +26,16 @@ export class Project {
   }
 
 projects: Project_1[] = [
-  // 1_Fine Quick 
+  // 1_SSBrinet Innovations 
    {
       id: 1,
-      title: 'FineQuick Multi-Utility SaaS Platform',
-      description: 'Built Fine Quick, a SaaS platform with 150+ productivity tools using Angular & Spring Boot...',
+      title: 'SSBrinet Multi-Utility SaaS Platform',
+      description: 'Built SSBrinet Innovations, a SaaS platform with 150+ productivity tools using Angular & Spring Boot...',
       image: '/assets/images/projects/finequick_web/home.png',
       technologies: ['HTML/CSS', 'Angular/TypeScript', 'Java', 'JWT', 'Spring Boot', 'MySQL'],
-      category: 'Fine Quick',
-      demoUrl: 'https://www.finequick.com/',
-      codeUrl: 'https://github.com/satendrasde'
+      category: 'SSBrinet Innovations',
+      demoUrl: 'https://www.SSBrinet.com/',
+      codeUrl: 'https://github.com/satendracoder'
     },
 
     // 2_Redmil Fintech 
@@ -47,7 +47,7 @@ projects: Project_1[] = [
       technologies: ['HTML/CSS', 'Angular/TypeScript', 'Java', 'RESTful APIs', 'Spring Boot', 'MySQL'],
       category: 'Redmil',
       demoUrl: 'https://web.redmilbusinessmall.com/login',
-      codeUrl: 'https://github.com/satendrasde'
+      codeUrl: 'https://github.com/satendracoder'
     },
 
     // 3_Redmil HDFC
@@ -59,7 +59,7 @@ projects: Project_1[] = [
       technologies: ['HTML/CSS', 'JavaScript/TypeScript','Angular', 'Material UI'],
       category: 'Redmil',
       demoUrl: 'https://hdfc.betterbottech.ai/login',
-      codeUrl: 'https://github.com/satendrasde'
+      codeUrl: 'https://github.com/satendracoder'
     },
 
     // 4_Webconvoy Gaming Platform
@@ -71,7 +71,7 @@ projects: Project_1[] = [
       technologies: ['HTML/CSS', 'JavaScript/TypeScript','Angular', 'Material UI'],
       category: 'Webconvoy',
       demoUrl: 'https://poker9club.casino/',
-      codeUrl: 'https://github.com/satendrasde'
+      codeUrl: 'https://github.com/satendracoder'
     },
 
     // 5_Webconvoy PPF(Paint Protection Film)
@@ -83,7 +83,7 @@ projects: Project_1[] = [
       technologies: ['HTML/CSS','JavaScript','TypeScript','Angular','Material UI','', 'MEAN Stack',],
       category: 'Webconvoy',
       demoUrl: 'https://eazycool.com.sg/',
-      codeUrl: 'https://github.com/satendrasde'
+      codeUrl: 'https://github.com/satendracoder'
     },
 
     //_6 Port Portfolio Website
@@ -95,7 +95,7 @@ projects: Project_1[] = [
       technologies: ['HTML','CSS','Angular', 'TypeScript', 'Material UI', 'Java Spring Boot', 'Rest APIs'],
       category: 'Collage & Myself',
       demoUrl: 'https://satendrasde.vercel.app/',
-      codeUrl: 'https://github.com/satendrasde'
+      codeUrl: 'https://github.com/satendracoder'
     },
 
     // Collage time Project
@@ -107,11 +107,11 @@ projects: Project_1[] = [
       technologies: ['HTML', 'CSS','TypeScript','Angular_12', 'Material UI', 'Bootstrap'],
       category: 'Collage & Myself',
       demoUrl: 'https://satendrasde.com/contact',
-      codeUrl: 'https://github.com/satendrasde'
+      codeUrl: 'https://github.com/satendracoder'
     }
   ];
 
-  categories: string[] = ['All', 'Fine Quick', 'Redmil', 'Webconvoy','Collage & Myself',];
+  categories: string[] = ['All', 'SSBrinet Innovations', 'Redmil', 'Webconvoy','Collage & Myself',];
   selectedCategory: string = 'All';
 
   filteredProjects(): Project_1[] {
