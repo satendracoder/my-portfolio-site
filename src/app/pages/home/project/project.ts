@@ -33,7 +33,7 @@ projects: Project_1[] = [
       description: 'Built Fine Quick Innovations, a SaaS platform with 150+ productivity tools using Angular & Spring Boot...',
       image: '/assets/images/projects/finequick_web/home.png',
       technologies: ['HTML/CSS', 'Angular/TypeScript', 'Java', 'JWT', 'Spring Boot', 'MySQL'],
-      category: 'SSBrinet Innovations',
+      category: 'Fine Quick Tech',
       demoUrl: 'https://www.finequick.com/',
       codeUrl: 'https://github.com/satendracoder'
     },
@@ -111,7 +111,7 @@ projects: Project_1[] = [
     }
   ];
 
-  categories: string[] = ['All', 'SSBrinet Innovations', 'Redmil', 'Webconvoy','Collage & Myself',];
+  categories: string[] = ['All', 'Fine Quick Tech', 'Redmil', 'Webconvoy','Collage & Myself',];
   selectedCategory: string = 'All';
 
   filteredProjects(): Project_1[] {
