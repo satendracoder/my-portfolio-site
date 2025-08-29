@@ -35,11 +35,11 @@ export class ProjectDetails {
     //1 SSBrinet Innovations
     {
       id: 1,
-      title: 'SSBrinet Innovations - Multi-Utility SaaS Platform',
+      title: 'Fine Quick Innovations - Multi-Utility SaaS Platform',
       description:
-        'Built SSBrinet Innovations, a SaaS platform with 150+ productivity tools using Angular & Spring Boot. Worked on frontend architecture, API integrations, responsive UI, and SEO optimization for tool-based pages.',
+        'Built Fine Quick Innovations, a SaaS platform with 150+ productivity tools using Angular & Spring Boot. Worked on frontend architecture, API integrations, responsive UI, and SEO optimization for tool-based pages.',
       longDescription:
-        'Developed SSBrinet Innovations, a full-stack SaaS platform offering 150+ online productivity tools including writing, SEO, PDF, developer utilities, calculators, converters, downloaders, and much more. The platform helps writers, students, bloggers, marketers, developers, and content creators to boost their productivity with free online tools.✅ Writing & Grammar Tools (Plagiarism Checker, Paraphrasing Tools, Grammar Checker), ✅ PDF Tools (Merge, Split, Compress, Convert to/from PDF), ✅ SEO & Keyword Tools (Keyword Research, Backlink Checker, SEO Audits), ✅ Video & Media Downloaders (Instagram, TikTok, YouTube, Twitter), ✅ Calculators & Utilities (GST Calculator, Loan Calculator, BMI Calculator), ✅ Developer Tools (JSON/XML Viewer, Encoder/Decoder, Minifiers, Formatters), ✅ Image Tools (Image Resizer, Compressor, Converter), ✅ Security Tools (MD5 Generator, Password Generator, JWT Decoder)',
+        'Developed Fine Quick Innovations, a full-stack SaaS platform offering 150+ online productivity tools including writing, SEO, PDF, developer utilities, calculators, converters, downloaders, and much more. The platform helps writers, students, bloggers, marketers, developers, and content creators to boost their productivity with free online tools.✅ Writing & Grammar Tools (Plagiarism Checker, Paraphrasing Tools, Grammar Checker), ✅ PDF Tools (Merge, Split, Compress, Convert to/from PDF), ✅ SEO & Keyword Tools (Keyword Research, Backlink Checker, SEO Audits), ✅ Video & Media Downloaders (Instagram, TikTok, YouTube, Twitter), ✅ Calculators & Utilities (GST Calculator, Loan Calculator, BMI Calculator), ✅ Developer Tools (JSON/XML Viewer, Encoder/Decoder, Minifiers, Formatters), ✅ Image Tools (Image Resizer, Compressor, Converter), ✅ Security Tools (MD5 Generator, Password Generator, JWT Decoder)',
       image: '/assets/images/projects/finequick_web/home.png',
       gallery: [
         '/assets/images/projects/finequick_web/home.png',
@@ -75,7 +75,7 @@ export class ProjectDetails {
         'Postman',
       ],
       category: 'Anant Rajput',
-      demoUrl: 'https://www.SSBrinet.com/',
+      demoUrl: 'https://www.finequick.com/',
       codeUrl: 'https://github.com/satendracoder',
       features: [
        'Designed and developed the frontend interface using Angular with modular, component-driven architecture.',
@@ -89,9 +89,9 @@ export class ProjectDetails {
        'Ensured error handling and smooth user feedback with toasts, loaders, and validations.',
        'Coordinated with backend team for performance optimizations and scaling strategies.'
       ],
-      client: 'SSBrinet Innovations',
+      client: 'Fine Quick Tech Pvt Ltd',
       date: 'July 2025 to Present (Part time)',
-      role: 'Software Engineer',
+      role: 'Founder & CEO',
       location: 'Tilpata Karanwas, Greater Noida, Uttar Pradesh 201306,India',
     },
 

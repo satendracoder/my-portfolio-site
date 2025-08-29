@@ -29,12 +29,12 @@ projects: Project_1[] = [
   // 1_SSBrinet Innovations 
    {
       id: 1,
-      title: 'SSBrinet Multi-Utility SaaS Platform',
-      description: 'Built SSBrinet Innovations, a SaaS platform with 150+ productivity tools using Angular & Spring Boot...',
+      title: 'Fine Quick Multi-Utility SaaS Platform',
+      description: 'Built Fine Quick Innovations, a SaaS platform with 150+ productivity tools using Angular & Spring Boot...',
       image: '/assets/images/projects/finequick_web/home.png',
       technologies: ['HTML/CSS', 'Angular/TypeScript', 'Java', 'JWT', 'Spring Boot', 'MySQL'],
       category: 'SSBrinet Innovations',
-      demoUrl: 'https://www.SSBrinet.com/',
+      demoUrl: 'https://www.finequick.com/',
       codeUrl: 'https://github.com/satendracoder'
     },
 

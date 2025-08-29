@@ -2,10 +2,11 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, ReactiveFormsModule } from '@angular/forms';
 import { Meta, Title } from '@angular/platform-browser';
+import { RouterLink } from "../../../../../node_modules/@angular/router/router_module.d-BX1wlLux";
 
 @Component({
   selector: 'app-contact',
-  imports: [CommonModule,ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule],
   templateUrl: './contact.html',
   styleUrl: './contact.scss'
 })
@@ -57,6 +58,10 @@ export class Contact {
     return control?.invalid && (control?.dirty || control?.touched);
   }
 
+  OnRedirect(){
+    debugger
+    window.location.href = 'https://www.satendracoder.com/ask-me-anything';
+  }
 
   setMetaTags(): void {
     const pageTitle = 'Contact Satendra Rajput | Hire Angular & Java Full Stack Developer';

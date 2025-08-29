@@ -26,8 +26,8 @@ export class Experience {
 
   companies:any = [
     {
-      name: 'SSBrinet Innovations',
-      icon: 'https://www.ssbrinet.com/favicon.png',
+      name: 'Fine Quick Tech Pvt Ltd',
+      icon: 'https://www.finequick.com/favicon.svg',
       duration: 'July 2025 - Present (Part-time)',
       degination: "Software Engineer",
       location: 'Greate Noida, Uttar Pradesh · Remote',
