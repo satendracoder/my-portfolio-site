@@ -31,7 +31,6 @@ export class ProjectDetails {
 
   // Dummy data for the project details
   projects: Project[] = [
-
     //1 SSBrinet Innovations
     {
       id: 1,
@@ -78,16 +77,16 @@ export class ProjectDetails {
       demoUrl: 'https://www.finequick.com/',
       codeUrl: 'https://github.com/satendracoder',
       features: [
-       'Designed and developed the frontend interface using Angular with modular, component-driven architecture.',
-       'Created REST APIs using Spring Boot for dynamic tool rendering and processing.',
-       'Built interactive forms for input-heavy tools like plagiarism checkers, converters, and calculators.',
-       'Integrated third-party APIs (OCR, Translation, SEO APIs) with secure handling.',
-       'Managed file upload/download systems for tools like PDF converters and image converters.',
-       'Implemented JWT-based authentication for secure sections of the platform.',
-       'Focused on responsive UI compatible with all devices (desktop, tablet, mobile).',
-       'Worked on SEO optimization for tool pages (dynamic meta tags, sitemap generation, robots.txt).',
-       'Ensured error handling and smooth user feedback with toasts, loaders, and validations.',
-       'Coordinated with backend team for performance optimizations and scaling strategies.'
+        'Designed and developed the frontend interface using Angular with modular, component-driven architecture.',
+        'Created REST APIs using Spring Boot for dynamic tool rendering and processing.',
+        'Built interactive forms for input-heavy tools like plagiarism checkers, converters, and calculators.',
+        'Integrated third-party APIs (OCR, Translation, SEO APIs) with secure handling.',
+        'Managed file upload/download systems for tools like PDF converters and image converters.',
+        'Implemented JWT-based authentication for secure sections of the platform.',
+        'Focused on responsive UI compatible with all devices (desktop, tablet, mobile).',
+        'Worked on SEO optimization for tool pages (dynamic meta tags, sitemap generation, robots.txt).',
+        'Ensured error handling and smooth user feedback with toasts, loaders, and validations.',
+        'Coordinated with backend team for performance optimizations and scaling strategies.',
       ],
       client: 'Fine Quick Tech Pvt Ltd',
       date: 'July 2025 to Present (Part time)',
@@ -224,7 +223,7 @@ export class ProjectDetails {
         'Angular',
         'Material UI',
       ],
-      category: 'Gaurav Singh - Director',
+      category: 'Sagar Raj Singhal',
       demoUrl: 'https://poker9club.casino/',
       codeUrl: 'https://github.com/satendracoder',
       features: [
@@ -236,10 +235,10 @@ export class ProjectDetails {
         'Ensured cross-browser and mobile responsiveness for better reach across devices.',
         'Implemented form validations for critical user flows like player registration and password change.',
       ],
-      client: 'WebConvoy Pvt Ltd',
+      client: 'Redmil Business Mall',
       date: 'March 2023',
       role: 'Frontend Developer(Angular)',
-      location: 'H-159, Sector 63 Rd, H Block, Sector 63, Noida',
+      location: 'Sector 62 Noida, UP, India',
     },
 
     //5 PPF
@@ -280,7 +279,7 @@ export class ProjectDetails {
         '',
         'MEAN Stack',
       ],
-      category: 'Gaurav Singh - Director',
+      category: 'Sagar Raj Singhal',
       demoUrl: 'https://eazycool.com.sg/',
       codeUrl: 'https://github.com/satendracoder',
       features: [
@@ -293,17 +292,18 @@ export class ProjectDetails {
         'Used SCSS and Angular Material/Tailwind CSS for UI consistency and branding.',
         'Collaborated with designers and backend developers to optimize user experience.',
       ],
-      client: 'WebConvoy Pvt Ltd',
+      client: 'Redmil Business Mall',
       date: 'March 2023',
       role: 'Frontend Developer(Angular)',
-      location: 'H-159, Sector 63 Rd, H Block, Sector 63, Noida',
+      location: 'Sector 62 Noida, UP, India',
     },
 
     //6 Portfolio Website
     {
-      id:6,
+      id: 6,
       title: 'Personal Portfolio Website',
-      description:'A personal portfolio website showcasing projects, skills, and professional experience...',
+      description:
+        'A personal portfolio website showcasing projects, skills, and professional experience...',
       longDescription:
         'Designed and developed a personal portfolio website to highlight my skills, projects, professional experience, and achievements. The website serves as a professional platform to represent my technical expertise, display live project demos, and provide recruiters or clients with easy access to my work and contact details.',
       image: '/assets/images/projects/portfolio_myself/homelight.png',
@@ -321,7 +321,15 @@ export class ProjectDetails {
         '/assets/images/projects/portfolio_myself/project_2.png',
         '/assets/images/projects/portfolio_myself/project_3.png',
       ],
-      technologies: ['HTML','CSS','Angular', 'TypeScript', 'Material UI', 'Java Spring Boot', 'Rest APIs'],
+      technologies: [
+        'HTML',
+        'CSS',
+        'Angular',
+        'TypeScript',
+        'Material UI',
+        'Java Spring Boot',
+        'Rest APIs',
+      ],
       category: 'Satendra Rajput',
       demoUrl: 'https://satendrasde.vercel.app/',
       codeUrl: 'https://github.com/satendracoder',
@@ -332,7 +340,7 @@ export class ProjectDetails {
         'Integrated animations (if used) for smooth transitions and better UX.',
         'Focused on SEO optimization for better visibility on search engines.',
         'Ensured cross-browser compatibility and fast page load times.',
-        'Managed hosting and deployment (if applicable) on platforms like Vercel, Netlify, or custom servers.'
+        'Managed hosting and deployment (if applicable) on platforms like Vercel, Netlify, or custom servers.',
       ],
       client: 'Ownership',
       date: 'March 2023',
@@ -342,9 +350,10 @@ export class ProjectDetails {
 
     //7 Study Library (College Major Project)
     {
-      id:7,
+      id: 7,
       title: 'Study Library (College Major Project)',
-      description:'Study Library is an online educational platform designed to assist students, parents, and education stakeholders in accessing...',
+      description:
+        'Study Library is an online educational platform designed to assist students, parents, and education stakeholders in accessing...',
       longDescription:
         'Study Library is an online educational platform designed to assist students, parents, and education stakeholders in accessing a wide variety of educational materials. The platform allows users to browse by exams, courses, boards, and classes with a clean, responsive interface.Angular Routing for smooth page navigation, ✅Bootstrap-based responsive design, ✅Category-wise filterable content (Class 6th to 12th), ✅Static content based project (no API integrations), ✅Image optimization for better performance, ✅Newsletter Subscription form UI, ✅Footer with categorized useful links and social media buttons',
       image: '/assets/images/projects/lms_myself/home.jpg',
@@ -357,9 +366,16 @@ export class ProjectDetails {
         '/assets/images/projects/lms_myself/article_page.jpg',
         '/assets/images/projects/lms_myself/article_page_2.png',
         '/assets/images/projects/lms_myself/article_page_1.jpg',
-        
       ],
-      technologies: ['HTML','CSS','Angular', 'TypeScript', 'Material UI', 'Java Spring Boot', 'Rest APIs'],
+      technologies: [
+        'HTML',
+        'CSS',
+        'Angular',
+        'TypeScript',
+        'Material UI',
+        'Java Spring Boot',
+        'Rest APIs',
+      ],
       category: 'Avviare Educational Hub College',
       demoUrl: 'https://satendrasde.vercel.app/',
       codeUrl: 'https://github.com/satendracoder',
@@ -369,12 +385,13 @@ export class ProjectDetails {
         'Created reusable components for Header, Footer, Courses, Categories, etc.',
         'Ensured all images, links, and page content were mobile optimized.',
         'Handled testing across browsers for responsiveness and consistency.',
-        'No dynamic API fetching from backend.'
+        'No dynamic API fetching from backend.',
       ],
       client: 'Ownership',
       date: 'March 2023',
       role: 'College Major Project',
-      location: 'A/20, C-56, near Fortis Metro Station, C Block, Phase 2, Industrial Area, Sector 62, Noida, Uttar Pradesh 201301',
+      location:
+        'A/20, C-56, near Fortis Metro Station, C Block, Phase 2, Industrial Area, Sector 62, Noida, Uttar Pradesh 201301',
     },
   ];
 

@@ -165,13 +165,7 @@ export class Project {
     },
   ];
 
-  categories: string[] = [
-    'All',
-    'Fine Quick Tech',
-    'Redmil',
-    'Webconvoy',
-    'Collage & Myself',
-  ];
+  categories: string[] = ['All', 'Redmil', 'Collage & Myself'];
   selectedCategory: string = 'All';
 
   filteredProjects(): Project_1[] {
