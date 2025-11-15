@@ -73,7 +73,7 @@ export class ProjectDetails {
         'Git & GitHub',
         'Postman',
       ],
-      category: 'Anant Rajput',
+      category: 'Satendra Rajput',
       demoUrl: 'https://www.finequick.com/',
       codeUrl: 'https://github.com/satendracoder',
       features: [
@@ -330,7 +330,7 @@ export class ProjectDetails {
         'Rest APIs',
       ],
       category: 'Satendra Rajput',
-      demoUrl: 'https://satendrasde.vercel.app/',
+      demoUrl: 'https://me.satendracoder.com/',
       codeUrl: 'https://github.com/satendracoder',
       features: [
         'Designed the entire website layout using modern, clean, and minimalistic UI.',
