@@ -41,7 +41,7 @@ export class Project {
         'Spring Boot',
         'MySQL',
       ],
-      category: 'Fine Quick Tech',
+      category: 'Myself',
       demoUrl: 'https://www.finequick.com/',
       codeUrl: 'https://github.com/satendracoder',
     },
@@ -97,7 +97,7 @@ export class Project {
         'Angular',
         'Material UI',
       ],
-      category: 'Redmil',
+      category: 'WebConvoy',
       demoUrl: 'https://poker9club.casino/',
       codeUrl: 'https://github.com/satendracoder',
     },
@@ -118,7 +118,7 @@ export class Project {
         '',
         'MEAN Stack',
       ],
-      category: 'Redmil',
+      category: 'WebConvoy',
       demoUrl: 'https://eazycool.com.sg/',
       codeUrl: 'https://github.com/satendracoder',
     },
@@ -139,7 +139,7 @@ export class Project {
         'Java Spring Boot',
         'Rest APIs',
       ],
-      category: 'Collage & Myself',
+      category: 'Myself',
       demoUrl: 'https://satendrasde.vercel.app/',
       codeUrl: 'https://github.com/satendracoder',
     },
@@ -159,13 +159,13 @@ export class Project {
         'Material UI',
         'Bootstrap',
       ],
-      category: 'Collage & Myself',
+      category: 'Myself',
       demoUrl: 'https://satendrasde.com/contact',
       codeUrl: 'https://github.com/satendracoder',
     },
   ];
 
-  categories: string[] = ['All', 'Redmil', 'Collage & Myself'];
+  categories: string[] = ['All', 'Redmil', 'WebConvoy', 'Myself'];
   selectedCategory: string = 'All';
 
   filteredProjects(): Project_1[] {

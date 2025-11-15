@@ -62,23 +62,23 @@ export class Experience {
         'Handled full-stack feature development, from UI/UX to API integration, testing, and deployment, with a focus on scalability.',
       ],
     },
-    // {
-    //   name: 'WebConvoy Pvt Ltd',
-    //   icon: '/assets/images/webconvoy.jpeg',
-    //   duration: 'May 2024 - Aug 2024',
-    //   degination: "Angular Developer",
-    //   location: 'H-159, Sector 63, Noida, Uttar Pradesh, India · On-site',
-    //   points: [
-    //     'Designed responsive and interactive UI for core modules like login, registration, top-up, account, and transactions.',
-    //     'Integrated REST APIs for user authentication, transaction processing, and player management.',
-    //     'Developed QR code generation features for seamless payment flows.',
-    //     'Created dynamic car and product listing pages driven by data from backend APIs.',
-    //     'Integrated REST APIs for real-time content management (car listings, product details, blogs).',
-    //     'Developed admin functionalities for adding and updating products and blogs.',
-    //     'Ensured SEO-friendly structure with dynamic meta titles and descriptions.',
-    //     'Collaborated with designers and backend developers to optimize user experience.'
-    //   ]
-    // },
+    {
+      name: 'WebConvoy Pvt Ltd',
+      icon: '/assets/images/webconvoy.jpeg',
+      duration: 'May 2024 - Aug 2024',
+      degination: 'Angular Developer',
+      location: 'H-159, Sector 63, Noida, Uttar Pradesh, India · On-site',
+      points: [
+        'Designed responsive and interactive UI for core modules like login, registration, top-up, account, and transactions.',
+        'Integrated REST APIs for user authentication, transaction processing, and player management.',
+        'Developed QR code generation features for seamless payment flows.',
+        'Created dynamic car and product listing pages driven by data from backend APIs.',
+        'Integrated REST APIs for real-time content management (car listings, product details, blogs).',
+        'Developed admin functionalities for adding and updating products and blogs.',
+        'Ensured SEO-friendly structure with dynamic meta titles and descriptions.',
+        'Collaborated with designers and backend developers to optimize user experience.',
+      ],
+    },
     {
       name: 'Redmil Business Mall',
       icon: '/assets/images/redmil.jpeg',

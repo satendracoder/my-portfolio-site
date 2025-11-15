@@ -223,7 +223,7 @@ export class ProjectDetails {
         'Angular',
         'Material UI',
       ],
-      category: 'Sagar Raj Singhal',
+      category: 'Gaurav Singh - Director',
       demoUrl: 'https://poker9club.casino/',
       codeUrl: 'https://github.com/satendracoder',
       features: [
@@ -277,9 +277,8 @@ export class ProjectDetails {
         'Angular',
         'Material UI',
         '',
-        'MEAN Stack',
       ],
-      category: 'Sagar Raj Singhal',
+      category: 'Gaurav Singh - Director',
       demoUrl: 'https://eazycool.com.sg/',
       codeUrl: 'https://github.com/satendracoder',
       features: [
