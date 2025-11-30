@@ -47,7 +47,7 @@ export class Experience {
     {
       name: 'Redmil Business (Rejoin)',
       icon: '/assets/images/redmil.jpeg',
-      duration: 'Sep 2024 - Aug 2025',
+      duration: 'Sep 2024 - Nov 2025',
       degination: 'Full Stack Developer',
       location: 'Sector 142 Noida, Uttar Pradesh · On-site',
       points: [
